@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:descendantFocusability="blocksDescendants"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/about_us_code"
+            android:id="@+id/saoMa" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="御泥坊VIP商城"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+             />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/denglu"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/message_center_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/shouViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/qiandao"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/qiandaoimg"
+                        android:src="@mipmap/ic_launcher"
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:text="每日签到"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/jifen"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/jifenImg"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:text="积分商城"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/yuehuan"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/yuehuanImg"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:id="@+id/meiText"
+                        android:text="兌换专区"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/zhenwei"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/zhenweiImg"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+
+                        android:text="真伪查询"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:text="春季热销"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/id_recyclerview_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+
+                android:scrollbars="none" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:text="优惠活动"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/youHuiHuoDong"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerVertical="true"
+
+                android:scrollbars="none" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:text="热门专题"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <com.bwie.test.view.MyListview
+                android:id="@+id/listViewReMem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.bwie.test.view.MyListview>
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.test.DengLuActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back_normal"
+            android:id="@+id/dengluFanHui" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zhuCe"
+            android:textColor="#ff0000"
+            android:text="注册"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextZH"
+        android:ems="15"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/dengZH"
+        android:layout_toEndOf="@+id/dengZH"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账 号："
+        android:textSize="30sp"
+        android:id="@+id/dengZH"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignBottom="@+id/editTextZH"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密 码："
+        android:id="@+id/dengMIMA"
+        android:textSize="30sp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/dengZH"
+        android:layout_alignLeft="@+id/dengZH"
+        android:layout_alignStart="@+id/dengZH"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMIMA"
+        android:ems="15"
+        android:layout_alignBottom="@+id/dengMIMA"
+        android:layout_alignLeft="@+id/editTextZH"
+        android:layout_alignStart="@+id/editTextZH"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:id="@+id/denglubut"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/editTextMIMA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三方快速登录"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_marginBottom="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三方快速登录用户不享受任何御泥坊会员权限"
+        android:id="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
