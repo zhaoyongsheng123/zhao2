@@ -36,12 +36,24 @@
         "source": "E:\\as\\android\\WaiguoStudentApp\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
     },
     {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
         "merged": "E:\\as\\android\\WaiguoStudentApp\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
         "source": "E:\\as\\android\\WaiguoStudentApp\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
     },
     {
         "merged": "E:\\internet\\newCode\\PullToRefreshStudy\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
         "source": "E:\\internet\\newCode\\PullToRefreshStudy\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.jpg",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.jpg"
     },
     {
         "merged": "C:\\Users\\zhao\\Desktop\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",

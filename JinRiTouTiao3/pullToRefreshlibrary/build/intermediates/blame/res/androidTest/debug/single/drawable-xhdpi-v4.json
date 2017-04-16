@@ -8,6 +8,10 @@
         "source": "C:\\Users\\zhao\\Desktop\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.jpg"
     },
     {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
         "merged": "E:\\internet\\code\\PullToRefreshDeom\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
         "source": "E:\\internet\\code\\PullToRefreshDeom\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\zhao\\Desktop\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
         "source": "C:\\Users\\zhao\\Desktop\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
     },
     {
         "merged": "G:\\gethubssssssws\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
@@ -50,6 +58,10 @@
     {
         "merged": "E:\\as\\android\\WaiguoStudentApp\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
         "source": "E:\\as\\android\\WaiguoStudentApp\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.jpg",
+        "source": "G:\\githubss\\zhao2\\JinRiTouTiao3\\pullToRefreshlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.jpg"
     },
     {
         "merged": "E:\\internet\\code\\PullToRefreshDeom\\pullToRefreshlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
