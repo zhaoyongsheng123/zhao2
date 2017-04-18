@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bwie.test.activity.ShouActivity;
-import com.bwie.test.fragment1.fragment1;
+
 
 public class DengLuActivity extends AppCompatActivity {
 

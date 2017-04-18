@@ -124,7 +124,7 @@ public class ShouActivity extends AppCompatActivity implements View.OnClickListe
                 cehHua();
                 break;
             case R.id.meliner:
-                //add(new fragment5(),"f5");
+                add(new fragment5(),"f5");
                 SetBackgroundColor(R.id.meImg);
                 getColores(R.id.meText);
                 break;

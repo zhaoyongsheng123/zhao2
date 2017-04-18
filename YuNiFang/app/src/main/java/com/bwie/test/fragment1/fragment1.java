@@ -28,6 +28,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bwie.test.DengLuActivity;
 import com.bwie.test.R;
+import com.bwie.test.SaoMaActivity;
 import com.bwie.test.WebViewActivity;
 import com.bwie.test.ZhuCeActivity;
 import com.bwie.test.activity.ShouActivity;
@@ -97,6 +98,7 @@ public class fragment1 extends Fragment  {
     private RecyclerView mRecyclerView2;
     private List<F1bean.DataBean.ActivityInfoBean.ActivityInfoListBean> activityInfoList;
     private MyListview listView;
+    private ImageView saoMa;
 
 
     @Nullable
@@ -109,9 +111,8 @@ public class fragment1 extends Fragment  {
 
     private void initView(View view) {
         denglu = (ImageView) view.findViewById(R.id.denglu);
-        ImageView saoMa= (ImageView) view.findViewById(R.id.saoMa);
+        saoMa = (ImageView) view.findViewById(R.id.saoMa);
         viewPager = (ViewPager) view.findViewById(R.id.shouViewPager);
-        //listView = (ListView) view.findViewById(R.id.listViewReMem);
         listView = (MyListview) view.findViewById(R.id.listViewReMem);
         mRecyclerView = (RecyclerView) view.findViewById(R.id.id_recyclerview_horizontal);
         mRecyclerView2 = (RecyclerView) view.findViewById(R.id.youHuiHuoDong);
@@ -145,8 +146,8 @@ public class fragment1 extends Fragment  {
         }
 
         getData();
-
         cehHua();
+        getsaoMa();
     }
     public void getData() {
 
@@ -289,5 +290,15 @@ public class fragment1 extends Fragment  {
         //设置适配器
          GalleryAdapter galleryAdapter = new GalleryAdapter(getActivity(),activityInfoList);
         mRecyclerView2.setAdapter(galleryAdapter);
+    }
+
+    public void getsaoMa() {
+        saoMa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it=new Intent(getActivity(), SaoMaActivity.class);
+                startActivity(it);
+            }
+        });
     }
 }

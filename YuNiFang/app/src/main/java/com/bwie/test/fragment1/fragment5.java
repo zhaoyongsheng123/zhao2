@@ -11,6 +11,8 @@ import android.widget.ListView;
 
 import com.bwie.test.R;
 import com.bwie.test.bean.MeListBean;
+import com.bwie.test.dao.FAdapter;
+import com.bwie.test.dao.ListF5Adapter;
 
 import java.util.ArrayList;
 
@@ -39,12 +41,15 @@ public class fragment5 extends Fragment {
 
     public void getlistView() {
         ArrayList<MeListBean> list=new ArrayList<>();
-        list.add(new MeListBean(R.mipmap.))
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        list.add(new MeListBean(R.mipmap.my_order_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_invite_gift_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_face_test_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.exchange_area_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_coupon_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_lottery_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_collection_icon,"我的订单"));
+        list.add(new MeListBean(R.mipmap.my_order_icon,"我的订单"));
+        listView.setAdapter(new FAdapter(getActivity(),list));
 
-            }
-        });
     }
 }

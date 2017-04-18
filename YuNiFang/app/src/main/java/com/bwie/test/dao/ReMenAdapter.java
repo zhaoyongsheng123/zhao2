@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bwie.test.R;
 import com.bwie.test.bean.F1bean;
-import com.bwie.test.utils.BitmapUtils;
+
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
 package com.bwie.test.dao;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,21 +41,26 @@ public class ReMenRecyclerAdapter extends RecyclerView.Adapter<ReMenRecyclerAdap
         String goods_img = list.get(position).getGoods_img();
         utils.display(holder.imageView,list.get(position).getGoods_img());
         holder.textView.setText(list.get(position).getGoods_name());
+        holder.textView2.setText("￥"+list.get(position).getShop_price()+" ");
+        holder.textView3.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG);
+        holder.textView3.setText(""+list.get(position).getMarket_price());
     }
 
     @Override
     public int getItemCount() {
-        return list.size();
+        return 8;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
         public ImageView imageView;
-        public TextView textView;
+        public TextView textView,textView2,textView3;
         public MyViewHolder(View itemView) {
             super(itemView);
              imageView = (ImageView) itemView.findViewById(R.id.id_index_gallery_item_image);
             textView= (TextView) itemView.findViewById(R.id.id_index_gallery_item_text);
+            textView2= (TextView) itemView.findViewById(R.id.id_price_item_text);
+            textView3= (TextView) itemView.findViewById(R.id.id_price_hua_item_text);
         }
 
     }
